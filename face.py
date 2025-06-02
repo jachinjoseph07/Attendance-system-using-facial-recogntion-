@@ -10,10 +10,6 @@ import csv
 import os
 from datetime import datetime
 import threading
-
-# Function to get the model file path
-import os
-import sys
 import face_recognition
 
 def get_model_path():
