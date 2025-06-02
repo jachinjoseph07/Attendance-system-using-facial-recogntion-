@@ -30,7 +30,7 @@ except Exception as e:
     print(f"Error loading model: {e}")
 
 class AttendanceSystemApp:
-    def _init_(self, root):
+    def __init__(self, root):
         self.root = root
         self.root.title("Face Recognition Attendance System")
         self.root.geometry("700x500")
